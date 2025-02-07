@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Brewed Awakening</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<!-- for better understanding having comments in the code for good pract -->
+    <!-- Header -->
+    <header>
+        <div class="logo">Brewed Awakening</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <h2 id="welcome-text"></h2>  <!-- Typing Effect Text if we can do this  -->
+        <h2>Our Menu</h2>
+        <div class="menu-items" id="menuContainer">
+            <!-- Menu items will be loaded dynamically from script file to load data -->
+        </div>
+        <button class="btn" id="loadMoreBtn">Load More</button>
+    </section>
+
+    <!-- Modal Window -->
+    <div id="menuModal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title"></h2>
+            <p id="modal-desc"></p>
+            <span id="modal-price"></span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Brewed Awakening. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
