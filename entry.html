@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Budget Tracker</title>
+</head>
+<body>
+    <center>
+        <header>
+            <h1>&#128202; Personal Budget Tracker</h1>
+            <p>
+                &#x2795; <a href="add-entry.html">Add Income or Expense</a>
+                |
+                &#128200;<a href="summary.html">View Budget Summary</a>
+            </p>
+        </header>
+
+        <section>
+            <h1>&#127919; Welcome to your personalized Budget Tracker</h1>
+            <div>This is a one-stop destination to track all your monthly income and expenses.</div>
+            <div>Here you can add new entries, keep track, and get a detailed summary on your income and expenses.</div>
+            <br>
+
+            <form action="entry-submitted.html" method="POST">
+                <fieldset>
+                    <legend>&#128176;&#128176; Enter all your Details here:</legend>
+                    <h1> &#128221; Your Info </h1>
+                    <div>
+                        <label for="income">Income:  </label>
+                        <input type="number" id="income" name="income" required placeholder="Enter your Income">&#128181;
+                    </div>
+                    <br>
+                    <div>
+                        <label for="expense">Expense:  </label>
+                        <input type="number" id="expense" name="expense" required placeholder="Enter your Expense">&#128179;
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Description">Description:  </label>
+                        <input type="text" id="Description" name="Description" required placeholder="Enter your Description">&#128218;
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Status">Status:  </label>
+                        <input type="text" id="Status" name="Status" required placeholder="Enter your Status">&#9989;&#10060;
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Category">Category:</label>
+                        <select name="Category" id="Category">
+                            <option value="Food">&#127869; food</option>
+                            <option value="clothing">&#128087;Clothing</option>
+                            <option value="Transportation">&#128652;Transportation</option>
+                            <option value="Entertainment">&#127909;Entertainment</option>
+                            <option value="salary">&#128185;Salary</option>
+                            <option value="Savings">&#128176; Savings</option>
+                            <option value="Utilities">&#9889;Utilities</option>
+                            <option value="Shopping">&#127969;Housing</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">&#128198;
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit">&#9989; Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+
+        </section>
+    </center>
+
+    <center>
+        <footer>
+            <p>&#128202; Personal Budget Tracker - Version 1.0</p>
+        </footer>
+    </center>
+</body>
+</html>
