@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #09aab3, #fad0c4);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    color: #d70f6c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons Styling */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: linear-gradient(90deg, #ff6b6b, #ffcc5c);
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff4f4f, #ffb400);
+    transform: scale(1.07);
+}
+
+/* Input Fields */
+.input-group {
+    margin: 10px 0;
+}
+
+input, select {
+    width: 85%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background: white;
+    color: #333;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Box */
+#content {
+    margin-top: 20px;
+    padding: 18px;
+    background: white;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Result Display */
+#result {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+    color: #ff4081;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
